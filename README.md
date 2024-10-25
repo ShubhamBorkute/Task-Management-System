@@ -64,6 +64,7 @@ The following endpoints are exposed:
    ```bash
    git clone https://github.com/your-username/task-management-system.git
 cd task-management-system
+
 spring.datasource.url=jdbc:mysql://localhost:3306/taskdb
 spring.datasource.username=root
 spring.datasource.password=your_password
@@ -71,6 +72,7 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 
 mvn spring-boot:run
+
 POST /tasks/add
 Content-Type: application/json
 
